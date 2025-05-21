@@ -9,7 +9,8 @@ export default defineConfig({
         setupFiles: ['@testing-library/jest-dom'],
         coverage: {
             reporter: ['text', 'html', 'lcov'],
-            exclude: [],
+            exclude: ['coverage/**'],
+            include: ['src/**/*.{ts,tsx}'],
         },
     },
-});
+}); 
