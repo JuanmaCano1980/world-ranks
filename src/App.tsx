@@ -1,6 +1,4 @@
-import { FC } from 'react';
-
-const App: FC = () => {
+const App = () => {
     return (
         <>
             <h1>World Ranks</h1>
